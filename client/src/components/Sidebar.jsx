@@ -7,7 +7,7 @@ import { useMatchStore } from "../store/useMatchStore";
 import { io } from "socket.io-client";
 
 // 👇 adjust if needed
-const socket = io("https://studysync-mmo6.onrender.com");
+const socket = io("http://localhost:5000/");
 
 const Sidebar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
